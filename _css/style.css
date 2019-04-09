@@ -1,0 +1,23 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inconsolata'
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 100px 0;
+}
+input {
+	padding: 10px 30px;
+	margin: 30px;
+}
+p {
+	font-size: 14pt;
+	text-align: center;
+}
