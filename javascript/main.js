@@ -2,9 +2,10 @@ const textArea = document.getElementById('txt');
 const image = document.getElementById('cena');
 let curScene = 0;
 
-let Button = document.querySelectorAll('input');
+
 
 function addRestartAoButton() {
+	let Button = document.querySelectorAll('input');
 	Button.forEach(() => {
 		restart()
 	});
